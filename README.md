@@ -1,6 +1,8 @@
 The Optimized Simple Discard Method
 ===
 
+**This document and code allows very efficient generation of large random numbers between 0 and N. It specifies a rather simple algorithm that combines binary comparison of large numbers with random bit generation. The algorithm requires fewer random bits and can be implemented using only binary operations. Moreover it doesn't require any additional memory. Applications include cryptographic operations such as the generation of ECC private keys and RSA-KEM, specifically on resource constrained systems.** 
+
 Author: Maarten Bodewes  
 Date: 2017-03-06 (initial draft)  
 Date: 2018-06-01 (revised draft)  
